@@ -1,0 +1,19 @@
+{
+  "name": "discord-raid",
+  "version": "0.0.1",
+  "description": "A little JavaScript script which enable you to use a Discord bot token to raid a Discord server according to the permissions it has.",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "keywords": [],
+  "author": {
+    "email": "obvious.ly.dev@gmail.com",
+    "name": "Quatrecentquatre",
+    "url": "https://www.youtube.com/channel/UCsDNyITNlRVKRgMe9tA0f-A"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.4.1"
+  }
+}

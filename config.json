@@ -1,0 +1,41 @@
+{
+    "token": "TOKEN",
+    "guild_id": "GUILD ID",
+    "raid_config": {
+        "guild": {
+            "change_guild_name": true,
+            "new_guild_name": "RAID",
+            "remove_invitations": true
+        },
+        "channels": {
+            "remove_channels": true,
+            "create_new_channels": true,
+            "new_channels_name": "raid",
+            "spamming": {
+                "enabled": true,
+                "message": "@everyone",
+                "delay_in_ms": 500,
+                "use_webhooks": true,
+                "webhooks_name": "RAID"
+            }
+        },
+        "roles": {
+            "remove_roles": true,
+            "create_new_roles": true,
+            "new_roles_name": "RAID",
+            "hex_color": "#FF2200",
+            "set_role": true
+        },
+        "members": {
+            "rename_members": true,
+            "ban_all_members": false,
+            "new_members_name": "RAID",
+            "remove_roles": true
+        },
+        "webhooks": {
+            "remove_webhooks": false,
+            "rename_webhooks": false,
+            "new_webhooks_name": "RAID"
+        }
+    }
+}
